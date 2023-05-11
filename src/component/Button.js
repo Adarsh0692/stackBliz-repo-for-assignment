@@ -1,7 +1,7 @@
 import React from 'react' 
 
-export default function Button (){
+export default function Button ({name}){
   return (
-    <button>Button</button>
+    <button>{name}</button>
   )
 }

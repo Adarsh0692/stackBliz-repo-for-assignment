@@ -5,7 +5,7 @@ import Button from './component/Button'
 export default function App() {
   return (
     <div>
-      <Button/>
+      <Button name="Button"/>
     </div>
   );
 }
